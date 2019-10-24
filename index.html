@@ -18,33 +18,32 @@
 <body>
 	<section class="ba-section">
 		<div class="ba-container">
-			<div class="ba-form">
-				<div class="ba-form-container">
+				<div class="ba-container-form">
 				<div class="ba-form__title">
 
-					<div class="ba-form-container__title">
+					<a href="#" class="ba-container-form__title">
 					<h4>Sign in</h4>
-				</div>
+				</a>
 				
-				<div class="ba-form-container__title">
+				<a href="#" class="ba-container-form__title">
 						<h4>Join us</h4>
-					</div>
+					</a>
 				
 				</div>
 			<form action="#" method="get" class="ba-contact-form">
-					<div class="ba-float-label">
-						<label class="ba-float-label" for="username">Username</label>
-						<input class="ba-float-label__input" type="text" name="username" id="username">
+					<div class="ba-label">
+						<label class="ba-label ba-label--name" for="username">Username</label>
+						<input required class="ba-label__input" type="text" name="username" id="username" placeholder="Username">
 					</div>
-					<div class="ba-float-label">
+					<div class="ba-label">
 							<label class="ba-float-label" for="password">Password</label>
-							<input class="ba-float-label__input" type="password" name="password" id="password">
+							<input required class="ba-label__input" type="password" name="password" id="password" placeholder="Password">
 						</div>
-						<div class="ba-float-label">
-								<input class="ba-float-label__сheckbox" type="checkbox" name="checkbox" id="checkbox">
-								<label class="ba-float-label ba-float-label--letter" for="checkbox">Keep me signed in</label>
+						<div class="ba-label ba-label--indent">
+								<input class="ba-label__сheckbox" type="checkbox" name="checkbox" id="checkbox" checked>
+								<label class="ba-label ba-label--letter" for="checkbox">Keep me signed in</label>
 							</div>
-							<div class="ba-form-container__button">
+							<div class="ba-form__button">
 									<button type="submit" class="ba-button">
 											Sing in
 										</button>
@@ -57,7 +56,6 @@
 			</form>
 				</div>
 				<!-- /.ba-form -->
-				</div>
 				</div>
 				<!-- /.ba-container -->
 
